@@ -2,6 +2,7 @@
   "name": "@velvetta/types",
   "version": "0.0.1",
   "main": "dist/index.js",
+  "repository": "https://github.com/velvettajs/types.git",
   "description": "types for velvettajs apps",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -18,5 +19,8 @@
   },
   "dependencies": {
     "drizzle-orm": "^0.33.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   }
 }
