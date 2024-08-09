@@ -19,8 +19,5 @@
   "dependencies": {
     "@velvetta/types": "C:/Users/Usuario/Desktop/types-velvetta/velvetta-types-0.0.1.tgz",
     "drizzle-orm": "^0.33.0"
-  },
-  "publishConfig": {
-  "registry": "https://npm.pkg.github.com/"
-}
+  }
 }
