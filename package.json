@@ -1,0 +1,26 @@
+{
+  "name": "@velvetta/types",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "description": "types for velvettajs apps",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "bun run tsc"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.1.6",
+    "@types/node": "^22.1.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@velvetta/types": "C:/Users/Usuario/Desktop/types-velvetta/velvetta-types-0.0.1.tgz",
+    "drizzle-orm": "^0.33.0"
+  },
+  "publishConfig": {
+  "registry": "https://npm.pkg.github.com/"
+}
+}
