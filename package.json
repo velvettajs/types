@@ -8,7 +8,8 @@
   "types": "dist/index.d.ts",
   "type": "module",
   "scripts": {
-    "build": "bun run tsc"
+    "build": "bun run tsc",
+    "prepublishOnly": "bun run build"
   },
   "devDependencies": {
     "@types/bun": "^1.1.6",
@@ -19,8 +20,5 @@
   },
   "dependencies": {
     "drizzle-orm": "^0.33.0"
-  },
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
   }
 }
