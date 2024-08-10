@@ -21,6 +21,6 @@
     "drizzle-orm": "^0.33.0"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://registry.npmjs.org/"
   }
 }
