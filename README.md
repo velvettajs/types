@@ -23,39 +23,6 @@ bun add @velvetta/types
 The package is organized into several type files divided into modules for better organization. Here’s how you can import and use these types in your project:
 
 ### Available Types
-#### Velvetta 🎥
-
-| Type          | Description   |
-|---------------|---------------|
-| **WebhookType** | Type for webhooks. |
-| **VideoType**   | Type for videos.   |
-| **GirlType**    | Type for girls.    |
-| **TagType**     | Type for tags.     |
-| **ServerType**  | Type for servers.  |
-
-##### Example
-
-```typescript
-import { Velvetta } from '@velvetta/types';
-
-const webhook: Velvetta.WebhookType = {
-  tag: 'example',
-  webhook_url: 'http://discord.com/webhook',
-  server_id: 'server-id'
-};
-
-const video: Velvetta.VideoType = {
-  title: 'Example Video',
-  description: 'An example video',
-  url: 'http://xvideos.com/video',
-  image: 'http://xvideos.com/image.jpg',
-  duration: 120,
-  tags: ['example', 'video'],
-  files: {
-    high: 'http://xvideos.com/video.mp4'
-  }
-};
-```
 
 #### Services 🔧
 
